@@ -25,6 +25,7 @@ export default function Form({setValue}) {
       return
     }
     setValue({name, color})
+    e.target.reset()
   }
 
   function handleChangeName(e) {
